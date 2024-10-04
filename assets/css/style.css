@@ -7,14 +7,48 @@
     
 }
 header {
- background-image:url(../css/img.sgv/image.png);
- padding: 200px;
- width: Hug (438px)px;
-height: Hug (279px)px;
-top: 197px;
-left: 95px;
-gap: 64px;
-opacity: 0px;
+ background-image:url(./img.sgv/bg.png);
 
 }
+
+nav {
+    padding: 16px 92px;
+    display: flex;
+    justify-content: space-between;
+    & ul{
+        display: flex;       
+       gap: 16px;
+       & li a{
+        color: aliceblue;
+       }
+    }
+    & button{
+        background-color:#3b44f6 ;
+        color: aliceblue;
+        width: 90px;
+        height: 38px;
+        border-radius: 8px;
+        gap: 10px;
+        border: none;   
+    }
+ & button:last-child{
+background-color: transparent;
+border: aliceblue 1px solid;
+ }
+
+ }
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
 
